@@ -10,6 +10,7 @@
 # USER centos
 
    EXPOSE 80
+   
    CMD /usr/sbin/httpd -DFOREGROUND
 
 

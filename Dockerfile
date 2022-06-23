@@ -1,4 +1,5 @@
  # This is demo Dockerfile 
-   FROM 
+   FROM centos:7
    
-   
+
+   

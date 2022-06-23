@@ -1,4 +1,5 @@
- # This is demo DockerfileFROM centos:7
+ # This is demo Dockerfile
+   FROM centos:7
 
    RUN yum install httpd -y
 

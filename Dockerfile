@@ -5,7 +5,7 @@
 
    WORKDIR /var/www/html
 
-   
+   COPY yum install 
 
 
    

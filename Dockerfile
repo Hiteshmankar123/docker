@@ -8,6 +8,7 @@
    COPY yum install httpd
 
 # USER centos
-   CMD /usr/sbin/httpd -
+   CMD /usr/sbin/httpd --DFOREGROUND
+
 
    

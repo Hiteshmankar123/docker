@@ -7,6 +7,7 @@
 
    COPY yum install httpd
 
-#
+# USER centos
+   
 
    

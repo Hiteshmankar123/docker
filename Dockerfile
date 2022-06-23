@@ -1,5 +1,5 @@
  # This is demo Dockerfile 
-   FROM centos:7
+  HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD [ "executable" ]FROM centos:7
 
    RUN yum install httpd -y
 

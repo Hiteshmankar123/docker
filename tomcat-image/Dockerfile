@@ -1,3 +1,4 @@
+FROM centos:7
 
 RUN yum install epel-release -y
 RUN yum install java-openjdk -y
@@ -6,3 +7,4 @@ RUN ls ./
 RUN tar -xzf ./tomcat-apache.tar.gz -C /opt/
 EXPOSE 8080
 CMD ["/opt/apache-tomcat-8.5.81/bin/catalina.sh","run"]
+

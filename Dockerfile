@@ -1,17 +1,16 @@
- # This is demo Dockerfile
-   FROM centos:7
+# this is demo dockerfile
 
-   RUN yum install httpd -y
+FROM centos:7
+RUN yum install httpd -y
+ENV HOSTNAME=cloudblitz.in
+COPY index.html /var/www/html/index.html
+EXPOSE 80 
+CMD ["/usr/sbin/httpd","-DFOREGROUND"]
 
-   WORKDIR /var/www/html
-
-   COPY index.html /var/www/html/index.html
-
+# MORE INSTRUCTIONS
+# WORKDIR /var/www/html 
 # USER centos
+# CMD /usr/local/httpd -DFOREGROUND
+# ENTRYPOINT ["/usr/sbin/httpd","-DFOREGROUND"]
+# ADD <source/url> <dest>
 
-   EXPOSE 80
-   
-   CMD /usr/sbin/httpd -DFOREGROUND
-
-
-   

@@ -5,7 +5,7 @@
 
    WORKDIR /var/www/html
 
-   COPY yum install httpd
+   COPY 
 
 # USER centos
    CMD /usr/sbin/httpd --DFOREGROUND

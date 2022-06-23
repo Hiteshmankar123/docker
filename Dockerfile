@@ -8,6 +8,6 @@
    COPY yum install httpd
 
 # USER centos
-   
+   CMD /usr/sbin/httpd -
 
    

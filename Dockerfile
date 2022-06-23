@@ -5,7 +5,7 @@
 
    WORKDIR /var/www/html
 
-   COPY 
+   COPY index.html /var/www/html/index.html
 
 # USER centos
    CMD /usr/sbin/httpd --DFOREGROUND

@@ -1,5 +1,6 @@
  # This is demo Dockerfile 
    FROM centos:7
-   RUN YUM INSTA
+   RUN yum install httpd -y
+   E
 
    

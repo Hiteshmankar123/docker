@@ -11,4 +11,5 @@ CMD ["/opt/apache-tomcat-8.5.81/bin/catalina.sh","run"]
 
 
 FROM centos:7
-RUN yum install java-open
+RUN yum install java-openjdk -y
+ADD 

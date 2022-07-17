@@ -11,7 +11,7 @@ CMD ["/usr/sbin/httpd","-DFOREGROUND"]
 # WORKDIR /var/www/html OREGROUND
 # ENTRYPOINT ["/usr/sbin/httpd","-DFOREGROUND"]
 # ADD <source/url> <dest>
-# USER centos
+# USER centos 
 # CMD /usr/local/httpd -DF
 
  
